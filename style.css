@@ -697,7 +697,8 @@ footer span a:hover{
 @media (max-width: 500px) {
     .home{
         display: flex;
-        background: url("photos/sp3.jpg") no-repeat center;
+        /*background: url("photos/sp3.jpg") no-repeat center;@/
+        background-color: black;
         height: 30vh;
         color:white;
         min-height: 500px;
