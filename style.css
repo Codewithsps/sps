@@ -78,8 +78,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-/*     background:var(--green); */
-    background-color:#FF00FF; 
+    background:var(--green);
+/*     background-color:#FF00FF;  */
 }
 .navbar .max-width{
     display: flex;
