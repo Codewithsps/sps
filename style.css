@@ -695,6 +695,8 @@ footer span a:hover{
 
 footer .social-link{
         padding: 1rem 1.5rem;
+     margin-top: -20px;
+        margin-bottom: -15px;
       color: var(--purple);
       }
       footer .social-link #ss{
