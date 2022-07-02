@@ -185,8 +185,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("") no-repeat center; */
-    background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
+    background: url(photos/home.jpg"") no-repeat center;
+/*     background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60); */
     
     color:white;
     min-height: 500px;
