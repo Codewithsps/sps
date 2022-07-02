@@ -700,7 +700,7 @@ footer .social-link{
       color: var(--purple);
       }
       footer .social-link #ss{
-        margin: 1px 10px;
+        margin: 1px 20px;
         font-size: 30px;
         color: var(--skin-color);
         transition: all 0.3s ease;
