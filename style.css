@@ -186,7 +186,8 @@ section .title::after{
 .home{
     display: flex;
     /* background: url("") no-repeat center; */
-    background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
+/*     background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60); */
+     background-image: linear-gradient(to right top, #0e0e22, #0f0e1d, #0f0e19, #0f0e14, #0e0e0e);
     color:white;
     min-height: 500px;
     background-size: cover;
@@ -678,7 +679,8 @@ footer span a:hover{
 @media (max-width: 500px) {
     .home{
         display: flex;
-        background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
+/*         background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60); */
+         background-image: linear-gradient(to right top, #0e0e22, #0f0e1d, #0f0e19, #0f0e14, #0e0e0e);
         height: 30vh;
         color:white;
         min-height: 500px;
