@@ -495,7 +495,7 @@ section .title::after{
     
     }
     .contact .title::after{
-        content: "Pauhari Baba";
+        content: "get in touch";
         background-color:whitesmoke;
        
     }
