@@ -692,3 +692,21 @@ footer span a:hover{
     }
 
    
+
+footer .social-link{
+        padding: 1rem 1.5rem;
+      color: var(--purple);
+      }
+      footer .social-link #ss{
+        margin: 1px 10px;
+        font-size: 30px;
+        color: var(--skin-color);
+        transition: all 0.3s ease;
+      }
+      footer .social-link #ss:hover{
+        font-size: 2.1rem;
+      }
+      footer .copy{
+        padding: 1rem;
+        color: var(--text-black-700);
+      }
