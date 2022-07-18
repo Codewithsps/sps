@@ -574,7 +574,7 @@ footer span a:hover{
     }
     .navbar .menu{
         position: fixed;
-        height: 70vh;
+        height: 60vh;
         width: 50%;
         left: -100%;
         top: 0;
