@@ -576,7 +576,7 @@ footer span a:hover{
         position: fixed;
         height: 70vh;
         width: 50%;
-        right: -100%;
+        left: -100%;
         top: 0;
 /*         background: #111; */
         background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
