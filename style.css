@@ -174,7 +174,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
-    bottom: 50px;
+    bottom: 76px;
     opacity: 1;
     pointer-events: auto;
 }
