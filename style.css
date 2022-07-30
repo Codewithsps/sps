@@ -590,10 +590,11 @@ footer span a:hover{
     }
     .navbar .menu li{
         display: block;
+         margin-top: 60px;
     }
     .navbar .menu li a{
         display: inline-block;
-        margin: 20px 0;
+        margin: 0px 0;
         font-size: 25px;
     }
     .home .home-content .text-2{
