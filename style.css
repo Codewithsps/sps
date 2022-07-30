@@ -579,7 +579,8 @@ footer span a:hover{
         left: -100%;
         top: 0;
 /*         background: #111; */
-        background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
+        background-color: black;
+/*         background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60); */
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
