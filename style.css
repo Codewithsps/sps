@@ -521,7 +521,7 @@ section .title::after{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid var(--purple);
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .teams .carousel .card:hover img{
     border-color:whitesmoke;
