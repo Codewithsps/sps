@@ -170,6 +170,7 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     background:var(--black);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /*     background-color:#FF00FF;  */
 }
 .navbar .max-width{
@@ -644,6 +645,7 @@ footer span a:hover{
 /*         background: #111; */
 /*         background-color: black; */
         background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
