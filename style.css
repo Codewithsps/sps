@@ -527,7 +527,7 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color:whitesmoke;
 }
-/* .owl-dots{
+.owl-dots{
     text-align: center;
     margin-top: 20px;
 }
@@ -541,14 +541,14 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .owl-dot.active{
-    width: 35px;
+    width: 13px;
     border-radius: 14px;
 }
 .owl-dot.active,
 .owl-dot:hover{
     background: var(--purple)!important;
 }
- */
+
 /* contact section styling */
 #contact{
     /*   border-top: 1px dashed #ebc34e; */
