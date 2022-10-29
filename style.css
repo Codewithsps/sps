@@ -644,8 +644,8 @@ footer span a:hover{
         top: 0;
 /*         background: #111; */
 /*         background-color: black; */
-          background:var(--black);
-/*         background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60); */
+         
+        background-image: linear-gradient(to right top, #0b0b0b, #181424, #261939, #381c4d, #4f1b60);
          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
         padding-top: 80px;
