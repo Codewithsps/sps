@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme dark:text-white">
@@ -292,10 +293,16 @@
             </div>
             <textarea rows="6" placeholder="Enter your message"
                 class="w-full  p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90" name="message" required></textarea>
+
+                <div class="mb-6">
+                    <div class="g-recaptcha" data-sitekey="https://codewithsps.github.io/sps/"></div>
+                </div>
+                
             <button
                 class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:bg-darkHover">Submit
                 now 
                 <img src="images/right-arrow-white.png" alt="" class="w-4"></button>
+                
         </form>
     </div>
 
@@ -320,6 +327,7 @@
         </div>
     </div>
     <script src="script.js"></script>
+   
     <script>
         const forms = document.getElementById('myForm');
       
