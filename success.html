@@ -21,24 +21,24 @@
 </head>
 <body class="flex items-center justify-center min-h-screen ">
     <div class="m-4 w-full max-w-lg p-8 bg-sky-100 rounded-2xl shadow-lg text-center fade-in">
-        <svg class="w-16 h-16 mx-auto text-green-500 animate-bounce" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <!-- <svg class="w-16 h-16 mx-auto text-green-500 animate-bounce" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg>
+        </svg> -->
         <h2 class="mt-4 text-3xl font-bold text-gray-800">Success!</h2>
         <p class="mt-2 text-lg text-gray-600">Your form has been submitted successfully.</p>
         <p class="text-sm text-gray-500">Redirecting you to the homepage...</p>
         <a href="index.html" class="inline-block mt-4 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-[#b820e6] to-[#da7d20] rounded-lg ">Go Back</a>
     </div>
     <script>
-        function launchConfetti() {
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
-        }
-        launchConfetti();
-        setInterval(launchConfetti, 9000); // Repeat every second for a celebration effect
+        // function launchConfetti() {
+        //     confetti({
+        //         particleCount: 100,
+        //         spread: 70,
+        //         origin: { y: 0.6 }
+        //     });
+        // }
+        // launchConfetti();
+        // setInterval(launchConfetti, 9000); // Repeat every second for a celebration effect
         
         setTimeout(() => {
             window.location.href = "./";
